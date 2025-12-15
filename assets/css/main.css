@@ -175,7 +175,7 @@ h6 {
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #000000;
   font-size: 14px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
@@ -1012,7 +1012,7 @@ section,
 
 .hero .btn-cta.btn-primary {
   color: var(--contrast-color);
-  background-color: var(--accent-color);
+  background-color: #000;
   border-color: var(--accent-color);
 }
 
@@ -4889,9 +4889,9 @@ section,
 .terms-of-service .tos-header .last-updated {
   display: inline-block;
   padding: 8px 20px;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  background-color: color-mix(in srgb, #000, transparent 90%);
   border-radius: 30px;
-  color: var(--accent-color);
+  color: #8b0a0a;
   font-size: 0.95rem;
   margin-bottom: 20px;
 }
