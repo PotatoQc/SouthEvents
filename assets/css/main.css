@@ -24,7 +24,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #40372e; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #281a0c; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #7c7874; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #cac2bb; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -50,8 +50,9 @@
   --background-color: #100901;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #252525;
+  --surface-color: #353131;
   --contrast-color: #ffffff;
+  --accent-color: #e0ddda; 
 }
 
 /* Smooth scroll */
@@ -3734,7 +3735,7 @@ section,
   top: -12px;
   left: 50%;
   transform: translateX(-50%);
-  background: var(--accent-color);
+  background: #ce961f;
   color: var(--contrast-color);
   padding: 8px 20px;
   border-radius: 20px;
@@ -3830,7 +3831,7 @@ section,
 }
 
 .tickets .ticket-footer .btn-ticket {
-  background: var(--accent-color);
+  background: #575353;
   color: var(--contrast-color);
   padding: 15px 30px;
   border-radius: 50px;
@@ -5492,4 +5493,54 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.menu .tab-content .tab-header {
+  padding: 30px 0;
+}
+
+.menu .tab-content .tab-header p {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-bottom: 0;
+}
+
+.menu .tab-content .tab-header h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.menu .tab-content .menu-item {
+  text-align-last: center;
+}
+
+.menu .tab-content .menu-item .menu-img {
+  padding: 0 60px;
+  margin-bottom: 15px;
+}
+
+.menu .tab-content .menu-item h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-family: var(--default-font);
+}
+
+.menu .tab-content .menu-item .ingredients {
+  font-family: var(--nav-font);
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  margin-bottom: 5px;
+}
+
+.menu .tab-content .menu-item .price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #020202;
+}
+
+.testimonials .testimonial-item .testimonial-content {
+  border-left: 3px solid var(--accent-color);
+  padding-left: 30px;
 }
