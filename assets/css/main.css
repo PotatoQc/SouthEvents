@@ -763,7 +763,7 @@ section,
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/events/test.gif");
+  background-image: url("../img/events/intro.gif");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
