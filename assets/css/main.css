@@ -14,10 +14,13 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Rubik",  sans-serif;
-  --nav-font: "Kanit",  sans-serif;
+  --default-font: "Inter", sans-serif;
+  --heading-font: "Poppins", sans-serif;
+  --nav-font: "Inter", sans-serif;
 }
+
+
+
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
@@ -88,6 +91,7 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+  letter-spacing: -0.02em;
 }
 
 /* PHP Email Form Messages
@@ -170,6 +174,7 @@ h6 {
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
+  letter-spacing: -0.02em;
 }
 
 .header .btn-getstarted,
@@ -664,6 +669,7 @@ h6 {
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 10px;
+  letter-spacing: -0.02em;
 }
 
 .page-title .breadcrumbs ol {
@@ -846,7 +852,15 @@ section,
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+
+  /* ✅ FIX MOBILE */
+  text-align: center;
+  padding: 0 16px;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
 }
+
 
 @media (max-width: 768px) {
   .hero .hero-subtitle {
@@ -3746,12 +3760,11 @@ section,
   transform: translateX(-50%);
   background: #ce961f;
   color: var(--contrast-color);
-  padding: 8px 20px;
+  padding: 8px 10px;
   border-radius: 20px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
 .tickets .ticket-header {
@@ -5216,6 +5229,7 @@ section,
   color: var(--heading-color);
   margin-bottom: 20px;
   font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 .privacy .privacy-header .header-content .intro-text {
@@ -5334,6 +5348,7 @@ section,
 
   .privacy h1 {
     font-size: 24pt;
+    letter-spacing: -0.02em;
   }
 
   .privacy h2 {
@@ -5365,6 +5380,7 @@ section,
 
   .privacy .privacy-header .header-content h1 {
     font-size: 2.2rem;
+    letter-spacing: -0.02em;
   }
 
   .privacy .privacy-header .header-content .intro-text {
